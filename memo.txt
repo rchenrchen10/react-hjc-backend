@@ -1,0 +1,37 @@
+npm init -y
+npm install express
+npm install --save-dev @babel/core @babel/node @babel/preset-env nodemon
+
+
+
+…or create a new repository on the command line
+
+echo "# react-hjc-june2021" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rchenrchen10/react-hjc-june2021.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/rchenrchen10/react-hjc-june2021.git
+git branch -M main
+git push -u origin main
+
+
+PS H:\JSProjects\react-hjc-june2021> git config --global user.email "rchenrchen10@gmail.com"
+PS H:\JSProjects\react-hjc-june2021> git config --global user.name "Richard Chen"
+PS H:\JSProjects\react-hjc-june2021> git commit -m "pretty completed front-end without backend"
+[master (root-commit) 531
+
+https://github.com/rchenrchen10/react-hjc-june2021
+PS H:\JSProjects\react-hjc-june2021> git branch
+* master
+PS H:\JSProjects\react-hjc-june2021> git branch -r
+PS H:\JSProjects\react-hjc-june2021>
+
+https://git-scm.com/docs/git-branch
+-M
+Shortcut for --move --force.
